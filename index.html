@@ -33,16 +33,13 @@
       display: flex;
       justify-content: center;
       align-items: center;
-
-      flex-shrink: 0; /* 新增 */
     }
 
     .avatar img {
       width: 100%;
       height: 100%;
       object-fit: cover;  /* 保证图片完全覆盖容器，不变形 */
-    
-      object-position: center; /* 调整定位 */
+      object-position: center;  /* 确保图片居中 */
     }
 
     .info h1 {
@@ -140,3 +137,49 @@
       </div>
     </div>
   </div>
+
+  <!-- 技能 -->
+  <div class="section">
+    <h3>技能技能</h3>
+    <ul>
+      <li><span class="highlight">语言：</span>C#, JavaScript, SQL,Python</li>
+      <li><span class="highlight">框架：</span>.NET Core, ASP.NET, WPF</li>
+      <li><span class="highlight">前端：</span>HTML5, CSS3, Vue.js</li>
+      <li><span class="highlight">数据库：</span>SQL Server, MySQL</li>
+      <li><span class="highlight">工具：</span>Visual Studio, Git, Docker</li>
+    </ul>
+  </div>
+
+  <!-- 项目经验 -->
+  <div class="section">
+    <h3>项目经验</h3>
+    <ul>
+      <li>
+        <strong>企业人事管理系统</strong> - 使用 WPF + .NET Core 构建，支持员工信息管理、权限分配、工资计算等。
+      </li>
+      <li>
+        <strong>线上商城后台管理平台</strong> - 使用 ASP.NET MVC + Vue 前后端分离，实现订单、库存、用户等模块。
+      </li>
+    </ul>
+  </div>
+
+  <!-- 教育背景 -->
+  <div class="section">
+    <h3>教育背景</h3>
+    <ul>
+      <li>某某大学 ｜ 自动化与计算机专业 ｜ 学士</li>
+    </ul>
+  </div>
+
+  <!-- 自我评价 -->
+  <div class="section">
+    <h3>自我评价</h3>
+    <p>
+      热爱编程，注重代码质量，具备良好的学习能力与沟通协作能力。
+      关注技术趋势，持续提升自我，秉持“永远向前”的信念面对每一个项目与挑战。
+    </p>
+  </div>
+
+</body>
+</html>
+
