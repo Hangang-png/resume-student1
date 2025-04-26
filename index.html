@@ -62,22 +62,28 @@
     }
 
     /* 手机适配 */
-    @media (max-width: 600px) {
-      .avatar {
-        width: 80px;
-        height: 80px;
-        margin-right: 1rem;
-      }
-      .info h1 {
-        font-size: 1.5rem;
-      }
-      .info h2 {
-        font-size: 1rem;
-      }
-      .contact {
-        font-size: 0.85rem;
-      }
-    }
+   @media (max-width: 600px) {
+  .banner {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .avatar {
+    width: 80px;
+    height: 80px;
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+  .info h1 {
+    font-size: 1.5rem;
+  }
+  .info h2 {
+    font-size: 1rem;
+  }
+  .contact {
+    font-size: 0.85rem;
+  }
+}
 
     .section {
       padding: 1.5rem 2rem;
